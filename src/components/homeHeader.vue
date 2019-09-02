@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'homeHeader',
+  name: 'homeheader',
   data(){
       return {
           value:''
