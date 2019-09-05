@@ -31,6 +31,18 @@ export default {
       hometicket,
       homestrategy,
       homefoot
+  },
+  methods:{
+      getHomeInfo(){
+          axios.get('static/mock/index.json')
+            .then(this.getHomeInfoSucc())
+      },
+      getHomeInfoSucc(){
+          console.log('成功连接')
+      }
+  },
+  mounted(){
+      this.getHomeInfo()
   }
 }
 </script>
