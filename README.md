@@ -1,6 +1,7 @@
 # project
 
 > A Vue.js project
+移动端仿去哪网首页
 
 ## Build Setup
 
